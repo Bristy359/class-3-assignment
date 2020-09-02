@@ -1,0 +1,198 @@
+/*google fonts :*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;669;700;800;900&display=swap');
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*
+primary background : #fff;
+secondary color : #f0f0f0;
+
+font color : black;
+cat color : b4ad9e;
+
+*/
+
+body{
+	font-family: 'Playfair Display', serif;
+}
+h1,h2,h3,h4,h5,h6,p,span,input{
+	font-family: 'Playfair Display', serif;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.container .logo{
+	width: 20%;
+	float: left;
+}
+
+.container .menu-item{
+	width: 60%;
+	float: right;
+	text-align: right;
+}
+
+.container .menu-item ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 70px;
+}
+
+.container .menu-item ul li a{
+	text-decoration: none;
+	color: grey;
+	text-transform: uppercase;
+	font-family: 'Playfair Display', serif;
+	font-weight: 600;
+}
+
+.container .banner img{
+	width: 100%;
+}
+
+.container .text{
+	margin: 70px;
+}
+
+.container .text h1{
+	margin: 15px 0;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+.container .text span{
+	text-transform: uppercase;
+	color: grey;
+}
+
+.container .text a{
+	text-decoration: none;
+	color: grey;
+}
+
+.container .text p{
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+.container .main-box{
+	margin: 70px;
+
+
+}
+
+.container .box-1{
+	width: 48%;
+	float: left;
+	margin-bottom: 70px;
+
+}
+
+.container .box-2{
+	width: 48%;
+	float: right;
+	margin-bottom: 70px;
+}
+
+.container .main-box h4{
+	color: grey;
+	text-transform: uppercase;
+	margin: 10px 0;
+	font-weight: 400;
+}
+
+.container .main-box h1{
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+.container .main-box p{
+	text-align: justify;
+}
+
+.container .main-box img{
+	width: 100%;
+
+}
+
+.container .clr{
+	clear: both;
+}
+.form{
+	text-align: center;
+	background-color: #f0f0f0;
+	padding: 40px 0;
+}
+
+.form h2{
+	margin: 10px 0;
+	color: #b4ad9e;
+	text-align: center;
+}
+
+.form input{
+	margin-top: 20px;
+	border: none;
+	background: transparent;
+	outline: none;
+	border-bottom: 2px solid black;
+	width: 260px;
+}
+
+.form i{
+	margin-left: -15px;
+}
+
+.btn{
+	
+	margin: 0 auto;
+	display: block;
+	background: transparent;
+	padding: 20px;
+	cursor: pointer;
+}
+
+.footer{
+	margin-top: 30px;
+}
+.footer .left{
+	width: 50%;
+	float: left;
+}
+
+.footer .right{
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+.footer ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.footer ul li:first-child{
+	margin-left: 0;
+}
+
+.footer ul li a{
+	text-decoration: none;
+	color: grey;
+}
+
+
+
+
+
+
+
